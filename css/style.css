@@ -8,10 +8,18 @@
 
 }
 
-.my-container section > .my-row{
+.my-col-small{
 
-    margin: 20px 0;
+    height: 40px;
+}
+.my-col-big{
 
+    min-height: 80px;
+}
+.my-row{
+
+    margin: 10px 0;
+    
 }
 
 .blue{
@@ -26,7 +34,28 @@
     border: 1px solid #006CFA;
 }
 
-.style-my-col.my-col-lg-6.blue .my-row{
+.my-row.nested{
 
+    padding: 0 10px;
+}
+
+.my-col-small.center{
+
+    align-self: center;
+}
+
+.my-col-small.bottom{
+
+    align-self: end;
+}
+
+.space-around{
+
+    justify-content: space-around;
+}
+
+.space-between{
+
+    justify-content: space-between;
     padding: 0 10px;
 }
