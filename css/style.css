@@ -1,20 +1,32 @@
 
 
-.my-col{
+.style-my-col{
 
-    border: 1px solid white;
+    min-height: 40px;
     padding: 10px 0;
     text-align: center;
+
+}
+
+.my-container section > .my-row{
+
+    margin: 20px 0;
 
 }
 
 .blue{
 
     background-color:#006CFA ;
-
+    border: 1px solid white;
 }
 
 .green{
 
     background-color: #00E165;
+    border: 1px solid #006CFA;
+}
+
+.style-my-col.my-col-lg-6.blue .my-row{
+
+    padding: 0 10px;
 }
